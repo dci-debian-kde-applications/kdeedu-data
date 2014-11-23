@@ -1,3 +1,17 @@
+kdeedu-data (4:14.11.95-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream beta release, renamed to kdeedu-data 
+    - Drop libkeduvocdocument4, libkdeedu-dev, libkdeedu-dbg as only the
+      architecture independent files are shipped in kdeedu-data and drop
+      the obsolete packaging files
+  * Fix watch urls for new release location
+  * Update Vcs urls for the new repository location
+  * Update the maintainer
+
+  * FIXME: No copyright information present!
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sun, 23 Nov 2014 20:01:06 +0100
+
 libkdeedu (4:4.14.1-1) unstable; urgency=medium
 
   * New upstream release (4.14.1).
