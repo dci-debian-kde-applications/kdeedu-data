@@ -4,6 +4,7 @@ kdeedu-data (4:14.11.95-0ubuntu1) UNRELEASED; urgency=medium
     - Drop libkeduvocdocument4, libkdeedu-dev, libkdeedu-dbg as only the
       architecture independent files are shipped in kdeedu-data and drop
       the obsolete packaging files
+    - build-depend on extra-cmake-modules instead of kdelibs5-dev
   * Fix watch urls for new release location
   * Update Vcs urls for the new repository location
   * Update the maintainer
