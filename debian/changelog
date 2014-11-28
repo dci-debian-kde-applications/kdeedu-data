@@ -1,6 +1,6 @@
-kdeedu-data (4:14.11.95-0ubuntu1) UNRELEASED; urgency=medium
+kdeedu-data (4:14.11.97-0ubuntu1) UNRELEASED; urgency=medium
 
-  * New upstream beta release, renamed to kdeedu-data 
+  * New upstream release candidate, renamed to kdeedu-data
     - Drop libkeduvocdocument4, libkdeedu-dev, libkdeedu-dbg as only the
       architecture independent files are shipped in kdeedu-data and drop
       the obsolete packaging files
