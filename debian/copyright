@@ -4,11 +4,11 @@ Comment: This package was developed for Ubuntu by the Kubuntu Developers and
  files.
 
 Files: *
-Copyright: FIXME: NO COPYRIGHT INFORMATION AVAILABLE
-License:
+Copyright: 2008 Anne-Marie Mahfouf <annma@kde.org>
+License: GPL-2+
 
 Files: debian/*
-Copyright: Copyright (C) 2011 Kubuntu Developers <kubuntu-devel@lists.launchpad.net>
+Copyright: 2011 Kubuntu Developers <kubuntu-devel@lists.launchpad.net>
 License: GPL-2+
 
 License: GPL-2+
