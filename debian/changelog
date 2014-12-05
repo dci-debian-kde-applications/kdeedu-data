@@ -1,5 +1,6 @@
-kdeedu-data (4:14.11.97-0ubuntu1) UNRELEASED; urgency=medium
+kdeedu-data (4:14.11.97-0ubuntu1~ubuntu15.04~ppa2) vivid; urgency=medium
 
+  [ Philip Muškovac ]
   * New upstream release candidate, renamed to kdeedu-data
     - Drop libkeduvocdocument4, libkdeedu-dev, libkdeedu-dbg as only the
       architecture independent files are shipped in kdeedu-data and drop
@@ -12,7 +13,10 @@ kdeedu-data (4:14.11.97-0ubuntu1) UNRELEASED; urgency=medium
 
   * FIXME: No copyright information present!
 
- -- Philip Muškovac <yofel@kubuntu.org>  Sun, 23 Nov 2014 20:01:06 +0100
+  [ Jonathan Riddell ]
+  * PPA build
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 04 Dec 2014 12:21:49 +0100
 
 libkdeedu (4:4.14.1-1) unstable; urgency=medium
 
