@@ -11,11 +11,6 @@ kdeedu-data (4:14.11.97-0ubuntu1) vivid; urgency=medium
   * Update Vcs urls for the new repository location
   * Update the maintainer
 
-  * FIXME: No copyright information present!
-
-  [ Jonathan Riddell ]
-  * PPA build
-
  -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 04 Dec 2014 12:21:49 +0100
 
 libkdeedu (4:4.14.1-1) unstable; urgency=medium
