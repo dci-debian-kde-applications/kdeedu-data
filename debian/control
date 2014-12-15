@@ -15,6 +15,17 @@ Homepage: http://edu.kde.org/
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-applications/kdeedu-data.git/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/kdeedu-data.git
 
+Package: libkdeedu-data
+Section: oldlibs
+Priority: extra
+Architecture: all
+Depends: ${misc:Depends}, kdeedu-data
+Description: transitional package for kdeedu-data
+ Transitional package for kdeedu-data. This package can safely be removed
+ after installation.
+ .
+ This package is part of the KDE education module.
+
 Package: kdeedu-data
 Architecture: all
 Depends: ${misc:Depends}
