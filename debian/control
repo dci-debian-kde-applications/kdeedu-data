@@ -19,7 +19,7 @@ Package: libkdeedu-data
 Section: oldlibs
 Priority: extra
 Architecture: all
-Depends: ${misc:Depends}, kdeedu-data
+Depends: kdeedu-data, ${misc:Depends}
 Description: transitional package for kdeedu-data
  Transitional package for kdeedu-data. This package can safely be removed
  after installation.
@@ -32,7 +32,7 @@ Depends: ${misc:Depends}
 Replaces: libkdeedu-data (<< 4:14.11.95)
 Breaks: libkdeedu-data (<< 4:14.11.95)
 Description: data files for KDE education applications
- This package contains the architecture-independent data files for 
+ This package contains the architecture-independent data files for
  the KDE education applications.
  .
  This package is part of the KDE education module.
