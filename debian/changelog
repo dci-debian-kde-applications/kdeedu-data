@@ -1,3 +1,11 @@
+kdeedu-data (4:15.08.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * Upload to unstable
+  * New upstream release
+
+ -- Scott Kitterman <scott@kitterman.com>  Thu, 03 Sep 2015 12:17:07 -0400
+
 kdeedu-data (4:14.12.2-1) experimental; urgency=medium
 
   * Prepare Debian release.
