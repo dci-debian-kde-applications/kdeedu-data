@@ -1,3 +1,11 @@
+kdeedu-data (4:15.12.0-2~1.gbpb46005) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @b46005fdd8bf3d3c17f77664720e2b6846767764 **
+
+  * Bump Standards-Version to 3.9.8
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 12:01:52 +0200
+
 kdeedu-data (4:15.12.0-1) experimental; urgency=medium
 
   * New upstream release (15.12.0).
