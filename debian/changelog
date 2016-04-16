@@ -1,4 +1,4 @@
-kdeedu-data (4:15.12.3-0ubuntu1) UNRELEASED; urgency=medium
+kdeedu-data (4:15.12.3-0ubuntu1) xenial; urgency=medium
 
   [ Scarlett Clark ]
   * New upstream bugfix release
@@ -7,7 +7,7 @@ kdeedu-data (4:15.12.3-0ubuntu1) UNRELEASED; urgency=medium
   [ Clive Johnston ]
   * Bumping rules to qt-kde-team/3 for QT5
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 16 Mar 2016 19:23:31 -0700
+ -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 14 Apr 2016 15:13:01 -0700
 
 kdeedu-data (4:15.12.1-0ubuntu1) xenial; urgency=medium
 
