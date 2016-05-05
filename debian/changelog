@@ -1,11 +1,13 @@
-kdeedu-data (4:15.12.0-2~2.gbpfa5684) UNRELEASED; urgency=medium
+kdeedu-data (4:15.12.0-2) experimental; urgency=medium
 
-  ** SNAPSHOT build @fa568456a028a1808c4ec70e466b697073c12f5e **
-
+  [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
-  * UNRELEASED
 
- -- Automatic packaging <jenkins@amadeus.gnuservers.com.ar>  Sat, 30 Apr 2016 20:05:41 +0200
+  [ Maximiliano Curia ]
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 05 May 2016 18:46:46 +0200
 
 kdeedu-data (4:15.12.0-1) experimental; urgency=medium
 
