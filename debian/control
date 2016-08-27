@@ -17,7 +17,7 @@ Package: libkdeedu-data
 Section: oldlibs
 Priority: extra
 Architecture: all
-Depends: kdeedu-data, ${misc:Depends}
+Depends: kdeedu-data (>= ${source:Version}), ${misc:Depends}
 Description: transitional package for kdeedu-data
  Transitional package for kdeedu-data. This package can safely be removed
  after installation.

@@ -2,6 +2,7 @@ kdeedu-data (4:16.08.0-0r1) UNRELEASED; urgency=medium
 
   [ Pino Toscano ]
   * New upstream release.
+  * Tighten the kdeedu-data dependency in the transitional libkdeedu-data.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 27 Aug 2016 16:43:10 +0200
 
