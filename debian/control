@@ -7,22 +7,11 @@ Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
                extra-cmake-modules (>= 1.6.0),
                pkg-kde-tools (>= 0.12),
-               qtbase5-dev
+               qtbase5-dev,
 Standards-Version: 3.9.8
 Homepage: http://edu.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kdeedu-data.git/
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kdeedu-data.git
-
-Package: libkdeedu-data
-Section: oldlibs
-Priority: extra
-Architecture: all
-Depends: kdeedu-data (>= ${source:Version}), ${misc:Depends}
-Description: transitional package for kdeedu-data
- Transitional package for kdeedu-data. This package can safely be removed
- after installation.
- .
- This package is part of the KDE education module.
 
 Package: kdeedu-data
 Architecture: all
@@ -41,5 +30,16 @@ Depends: ${misc:Depends}
 Description: KVTML files for KDE-Edu programs
  This package contains KVTML files for several KDE-Edu applications, such as
  KAnagram, KHangman, and KWordQuiz.
+ .
+ This package is part of the KDE education module.
+
+Package: libkdeedu-data
+Section: oldlibs
+Priority: optional
+Architecture: all
+Depends: kdeedu-data (>= ${source:Version}), ${misc:Depends}
+Description: transitional package for kdeedu-data
+ Transitional package for kdeedu-data. This package can safely be removed
+ after installation.
  .
  This package is part of the KDE education module.
