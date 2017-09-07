@@ -28,6 +28,8 @@ Description: data files for KDE education applications
 Package: kdeedu-kvtml-data
 Architecture: all
 Depends: ${misc:Depends}
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: KVTML files for KDE-Edu programs
  This package contains KVTML files for several KDE-Edu applications, such as
  KAnagram, KHangman, and KWordQuiz.
