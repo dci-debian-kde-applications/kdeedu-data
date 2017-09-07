@@ -36,7 +36,6 @@ Description: KVTML files for KDE-Edu programs
 
 Package: libkdeedu-data
 Section: oldlibs
-Priority: optional
 Architecture: all
 Depends: kdeedu-data (>= ${source:Version}), ${misc:Depends}
 Description: transitional package for kdeedu-data
