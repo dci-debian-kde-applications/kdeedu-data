@@ -18,7 +18,9 @@ Package: kdeedu-data
 Architecture: all
 Depends: ${misc:Depends}
 Replaces: libkdeedu-data (<< 4:14.11.95)
-Breaks: libkdeedu-data (<< 4:14.11.95)
+Breaks: kmplot (<< 4:17.08),
+        libkdeedu-data (<< 4:14.11.95),
+        libkeduvocdocument5 (<< 4:17.08),
 Description: data files for KDE education applications
  This package contains the architecture-independent data files for
  the KDE education applications.
@@ -28,7 +30,12 @@ Description: data files for KDE education applications
 Package: kdeedu-kvtml-data
 Architecture: all
 Depends: ${misc:Depends}
-Breaks: ${kde-l10n:all}
+Breaks: kanagram (<< 4:17.08),
+        khangman (<< 4:17.08),
+        kwordquiz (<< 4:17.08),
+        libkeduvocdocument5 (<< 4:17.08),
+        parley (<< 4:17.08),
+        ${kde-l10n:all},
 Replaces: ${kde-l10n:all}
 Description: KVTML files for KDE-Edu programs
  This package contains KVTML files for several KDE-Edu applications, such as
