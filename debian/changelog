@@ -1,5 +1,7 @@
 kdeedu-data (4:17.08.3-2) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Remove the transitional libkdeedu-data binary.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 29 Dec 2017 09:31:17 +0100
 

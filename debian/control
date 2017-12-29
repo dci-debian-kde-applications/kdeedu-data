@@ -41,13 +41,3 @@ Description: KVTML files for KDE-Edu programs
  KAnagram, KHangman, and KWordQuiz.
  .
  This package is part of the KDE education module.
-
-Package: libkdeedu-data
-Section: oldlibs
-Architecture: all
-Depends: kdeedu-data (>= ${source:Version}), ${misc:Depends}
-Description: transitional package for kdeedu-data
- Transitional package for kdeedu-data. This package can safely be removed
- after installation.
- .
- This package is part of the KDE education module.
