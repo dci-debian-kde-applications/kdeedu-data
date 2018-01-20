@@ -15,6 +15,7 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kdeedu-data.git
 
 Package: kdeedu-data
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends}
 Replaces: libkdeedu-data (<< 4:14.11.95)
 Breaks: kmplot (<< 4:17.08),
@@ -28,6 +29,7 @@ Description: data files for KDE education applications
 
 Package: kdeedu-kvtml-data
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends}
 Breaks: kanagram (<< 4:17.08),
         khangman (<< 4:17.08),
